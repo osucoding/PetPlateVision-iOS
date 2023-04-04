@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D292F4B529DC6B1800B7A902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4B429DC6B1800B7A902 /* AppDelegate.swift */; };
+		D292F4B729DC6B1800B7A902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4B629DC6B1800B7A902 /* SceneDelegate.swift */; };
+		D292F4B929DC6B1800B7A902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4B829DC6B1800B7A902 /* ViewController.swift */; };
+		D292F4BC29DC6B1800B7A902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D292F4BA29DC6B1800B7A902 /* Main.storyboard */; };
+		D292F4BF29DC6B1800B7A902 /* PetPlateVision.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D292F4BD29DC6B1800B7A902 /* PetPlateVision.xcdatamodeld */; };
+		D292F4C129DC6B1900B7A902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D292F4C029DC6B1900B7A902 /* Assets.xcassets */; };
+		D292F4C429DC6B1900B7A902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D292F4C229DC6B1900B7A902 /* LaunchScreen.storyboard */; };
+		D292F4CF29DC6B1900B7A902 /* PetPlateVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4CE29DC6B1900B7A902 /* PetPlateVisionTests.swift */; };
+		D292F4D929DC6B1900B7A902 /* PetPlateVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4D829DC6B1900B7A902 /* PetPlateVisionUITests.swift */; };
+		D292F4DB29DC6B1900B7A902 /* PetPlateVisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4DA29DC6B1900B7A902 /* PetPlateVisionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D292F4CB29DC6B1900B7A902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D292F4A929DC6B1800B7A902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D292F4B029DC6B1800B7A902;
+			remoteInfo = PetPlateVision;
+		};
+		D292F4D529DC6B1900B7A902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D292F4A929DC6B1800B7A902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D292F4B029DC6B1800B7A902;
+			remoteInfo = PetPlateVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D292F4B129DC6B1800B7A902 /* PetPlateVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPlateVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D292F4B429DC6B1800B7A902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D292F4B629DC6B1800B7A902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D292F4B829DC6B1800B7A902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D292F4BB29DC6B1800B7A902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D292F4BE29DC6B1800B7A902 /* PetPlateVision.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetPlateVision.xcdatamodel; sourceTree = "<group>"; };
+		D292F4C029DC6B1900B7A902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D292F4C329DC6B1900B7A902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D292F4C529DC6B1900B7A902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D292F4CA29DC6B1900B7A902 /* PetPlateVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetPlateVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D292F4CE29DC6B1900B7A902 /* PetPlateVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPlateVisionTests.swift; sourceTree = "<group>"; };
+		D292F4D429DC6B1900B7A902 /* PetPlateVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetPlateVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D292F4D829DC6B1900B7A902 /* PetPlateVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPlateVisionUITests.swift; sourceTree = "<group>"; };
+		D292F4DA29DC6B1900B7A902 /* PetPlateVisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPlateVisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D292F4AE29DC6B1800B7A902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D292F4C729DC6B1900B7A902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D292F4D129DC6B1900B7A902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D292F4A829DC6B1800B7A902 = {
+			isa = PBXGroup;
+			children = (
+				D292F4B329DC6B1800B7A902 /* PetPlateVision */,
+				D292F4CD29DC6B1900B7A902 /* PetPlateVisionTests */,
+				D292F4D729DC6B1900B7A902 /* PetPlateVisionUITests */,
+				D292F4B229DC6B1800B7A902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D292F4B229DC6B1800B7A902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D292F4B129DC6B1800B7A902 /* PetPlateVision.app */,
+				D292F4CA29DC6B1900B7A902 /* PetPlateVisionTests.xctest */,
+				D292F4D429DC6B1900B7A902 /* PetPlateVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D292F4B329DC6B1800B7A902 /* PetPlateVision */ = {
+			isa = PBXGroup;
+			children = (
+				D292F4B429DC6B1800B7A902 /* AppDelegate.swift */,
+				D292F4B629DC6B1800B7A902 /* SceneDelegate.swift */,
+				D292F4B829DC6B1800B7A902 /* ViewController.swift */,
+				D292F4BA29DC6B1800B7A902 /* Main.storyboard */,
+				D292F4C029DC6B1900B7A902 /* Assets.xcassets */,
+				D292F4C229DC6B1900B7A902 /* LaunchScreen.storyboard */,
+				D292F4C529DC6B1900B7A902 /* Info.plist */,
+				D292F4BD29DC6B1800B7A902 /* PetPlateVision.xcdatamodeld */,
+			);
+			path = PetPlateVision;
+			sourceTree = "<group>";
+		};
+		D292F4CD29DC6B1900B7A902 /* PetPlateVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D292F4CE29DC6B1900B7A902 /* PetPlateVisionTests.swift */,
+			);
+			path = PetPlateVisionTests;
+			sourceTree = "<group>";
+		};
+		D292F4D729DC6B1900B7A902 /* PetPlateVisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D292F4D829DC6B1900B7A902 /* PetPlateVisionUITests.swift */,
+				D292F4DA29DC6B1900B7A902 /* PetPlateVisionUITestsLaunchTests.swift */,
+			);
+			path = PetPlateVisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D292F4B029DC6B1800B7A902 /* PetPlateVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D292F4DE29DC6B1900B7A902 /* Build configuration list for PBXNativeTarget "PetPlateVision" */;
+			buildPhases = (
+				D292F4AD29DC6B1800B7A902 /* Sources */,
+				D292F4AE29DC6B1800B7A902 /* Frameworks */,
+				D292F4AF29DC6B1800B7A902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetPlateVision;
+			productName = PetPlateVision;
+			productReference = D292F4B129DC6B1800B7A902 /* PetPlateVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D292F4C929DC6B1900B7A902 /* PetPlateVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D292F4E129DC6B1900B7A902 /* Build configuration list for PBXNativeTarget "PetPlateVisionTests" */;
+			buildPhases = (
+				D292F4C629DC6B1900B7A902 /* Sources */,
+				D292F4C729DC6B1900B7A902 /* Frameworks */,
+				D292F4C829DC6B1900B7A902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D292F4CC29DC6B1900B7A902 /* PBXTargetDependency */,
+			);
+			name = PetPlateVisionTests;
+			productName = PetPlateVisionTests;
+			productReference = D292F4CA29DC6B1900B7A902 /* PetPlateVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D292F4D329DC6B1900B7A902 /* PetPlateVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D292F4E429DC6B1900B7A902 /* Build configuration list for PBXNativeTarget "PetPlateVisionUITests" */;
+			buildPhases = (
+				D292F4D029DC6B1900B7A902 /* Sources */,
+				D292F4D129DC6B1900B7A902 /* Frameworks */,
+				D292F4D229DC6B1900B7A902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D292F4D629DC6B1900B7A902 /* PBXTargetDependency */,
+			);
+			name = PetPlateVisionUITests;
+			productName = PetPlateVisionUITests;
+			productReference = D292F4D429DC6B1900B7A902 /* PetPlateVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D292F4A929DC6B1800B7A902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D292F4B029DC6B1800B7A902 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D292F4C929DC6B1900B7A902 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D292F4B029DC6B1800B7A902;
+					};
+					D292F4D329DC6B1900B7A902 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D292F4B029DC6B1800B7A902;
+					};
+				};
+			};
+			buildConfigurationList = D292F4AC29DC6B1800B7A902 /* Build configuration list for PBXProject "PetPlateVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D292F4A829DC6B1800B7A902;
+			productRefGroup = D292F4B229DC6B1800B7A902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D292F4B029DC6B1800B7A902 /* PetPlateVision */,
+				D292F4C929DC6B1900B7A902 /* PetPlateVisionTests */,
+				D292F4D329DC6B1900B7A902 /* PetPlateVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D292F4AF29DC6B1800B7A902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D292F4C429DC6B1900B7A902 /* LaunchScreen.storyboard in Resources */,
+				D292F4C129DC6B1900B7A902 /* Assets.xcassets in Resources */,
+				D292F4BC29DC6B1800B7A902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D292F4C829DC6B1900B7A902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D292F4D229DC6B1900B7A902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D292F4AD29DC6B1800B7A902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D292F4B929DC6B1800B7A902 /* ViewController.swift in Sources */,
+				D292F4B529DC6B1800B7A902 /* AppDelegate.swift in Sources */,
+				D292F4BF29DC6B1800B7A902 /* PetPlateVision.xcdatamodeld in Sources */,
+				D292F4B729DC6B1800B7A902 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D292F4C629DC6B1900B7A902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D292F4CF29DC6B1900B7A902 /* PetPlateVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D292F4D029DC6B1900B7A902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D292F4D929DC6B1900B7A902 /* PetPlateVisionUITests.swift in Sources */,
+				D292F4DB29DC6B1900B7A902 /* PetPlateVisionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D292F4CC29DC6B1900B7A902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D292F4B029DC6B1800B7A902 /* PetPlateVision */;
+			targetProxy = D292F4CB29DC6B1900B7A902 /* PBXContainerItemProxy */;
+		};
+		D292F4D629DC6B1900B7A902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D292F4B029DC6B1800B7A902 /* PetPlateVision */;
+			targetProxy = D292F4D529DC6B1900B7A902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D292F4BA29DC6B1800B7A902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D292F4BB29DC6B1800B7A902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D292F4C229DC6B1900B7A902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D292F4C329DC6B1900B7A902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D292F4DC29DC6B1900B7A902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D292F4DD29DC6B1900B7A902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D292F4DF29DC6B1900B7A902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetPlateVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PetPlateVision;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.osucoding.PetPlateVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D292F4E029DC6B1900B7A902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetPlateVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PetPlateVision;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.osucoding.PetPlateVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D292F4E229DC6B1900B7A902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.osucoding.PetPlateVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPlateVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetPlateVision";
+			};
+			name = Debug;
+		};
+		D292F4E329DC6B1900B7A902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.osucoding.PetPlateVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPlateVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetPlateVision";
+			};
+			name = Release;
+		};
+		D292F4E529DC6B1900B7A902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.osucoding.PetPlateVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetPlateVision;
+			};
+			name = Debug;
+		};
+		D292F4E629DC6B1900B7A902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JDGUK4DRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.osucoding.PetPlateVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetPlateVision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D292F4AC29DC6B1800B7A902 /* Build configuration list for PBXProject "PetPlateVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D292F4DC29DC6B1900B7A902 /* Debug */,
+				D292F4DD29DC6B1900B7A902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D292F4DE29DC6B1900B7A902 /* Build configuration list for PBXNativeTarget "PetPlateVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D292F4DF29DC6B1900B7A902 /* Debug */,
+				D292F4E029DC6B1900B7A902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D292F4E129DC6B1900B7A902 /* Build configuration list for PBXNativeTarget "PetPlateVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D292F4E229DC6B1900B7A902 /* Debug */,
+				D292F4E329DC6B1900B7A902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D292F4E429DC6B1900B7A902 /* Build configuration list for PBXNativeTarget "PetPlateVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D292F4E529DC6B1900B7A902 /* Debug */,
+				D292F4E629DC6B1900B7A902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D292F4BD29DC6B1800B7A902 /* PetPlateVision.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D292F4BE29DC6B1800B7A902 /* PetPlateVision.xcdatamodel */,
+			);
+			currentVersion = D292F4BE29DC6B1800B7A902 /* PetPlateVision.xcdatamodel */;
+			path = PetPlateVision.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D292F4A929DC6B1800B7A902 /* Project object */;
+}
