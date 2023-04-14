@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D28718EE29E9F19E009F84D3 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D28718ED29E9F19E009F84D3 /* YOLOv3.mlmodel */; };
-		D28718F329E9F475009F84D3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D28718F229E9F475009F84D3 /* Inceptionv3.mlmodel */; };
 		D28718F629E9F518009F84D3 /* MLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28718F529E9F518009F84D3 /* MLService.swift */; };
+		D287190129E9FD75009F84D3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D287190029E9FD75009F84D3 /* Inceptionv3.mlmodel */; };
 		D292F4B529DC6B1800B7A902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4B429DC6B1800B7A902 /* AppDelegate.swift */; };
 		D292F4B729DC6B1800B7A902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4B629DC6B1800B7A902 /* SceneDelegate.swift */; };
 		D292F4B929DC6B1800B7A902 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D292F4B829DC6B1800B7A902 /* MainViewController.swift */; };
@@ -40,9 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D28718ED29E9F19E009F84D3 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
-		D28718F229E9F475009F84D3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		D28718F529E9F518009F84D3 /* MLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLService.swift; sourceTree = "<group>"; };
+		D287190029E9FD75009F84D3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		D292F4B129DC6B1800B7A902 /* PetPlateVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPlateVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D292F4B429DC6B1800B7A902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D292F4B629DC6B1800B7A902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +85,7 @@
 		D28718EF29E9F1AE009F84D3 /* mlmodels */ = {
 			isa = PBXGroup;
 			children = (
-				D28718F229E9F475009F84D3 /* Inceptionv3.mlmodel */,
-				D28718ED29E9F19E009F84D3 /* YOLOv3.mlmodel */,
+				D287190029E9FD75009F84D3 /* Inceptionv3.mlmodel */,
 			);
 			path = mlmodels;
 			sourceTree = "<group>";
@@ -310,9 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28718EE29E9F19E009F84D3 /* YOLOv3.mlmodel in Sources */,
-				D28718F329E9F475009F84D3 /* Inceptionv3.mlmodel in Sources */,
 				D292F4B929DC6B1800B7A902 /* MainViewController.swift in Sources */,
+				D287190129E9FD75009F84D3 /* Inceptionv3.mlmodel in Sources */,
 				D292F4B529DC6B1800B7A902 /* AppDelegate.swift in Sources */,
 				D292F4BF29DC6B1800B7A902 /* PetPlateVision.xcdatamodeld in Sources */,
 				D28718F629E9F518009F84D3 /* MLService.swift in Sources */,
